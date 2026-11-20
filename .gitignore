@@ -1,0 +1,19 @@
+# Sanal ortam ve Python önbellekleri
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Büyük veri setleri ve eğitilmiş modeller
+data/raw/*
+data/processed/*
+models/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+
+# IDE ve işletim sistemi dosyaları
+.vscode/
+.DS_Store
+Thumbs.db
